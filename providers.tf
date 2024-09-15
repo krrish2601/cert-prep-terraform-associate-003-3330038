@@ -2,13 +2,13 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "5.31.0"
+      version = "5.67.0"
     }
   }
 }
 
 provider "aws" {
-  region = "us-east-1"
-  profile = "Helen"
+  region = "None"
+  profile = "Krishna-1"
   # Configuration options
 }
